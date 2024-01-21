@@ -6,7 +6,7 @@ except:
     os.system("pip install torch")
 
 try:
-    from tqdm import tqdm
+    from tqdm import tqdm  
 except:
     print('instaling tqdm')
     os.system("pip install tqdm")
